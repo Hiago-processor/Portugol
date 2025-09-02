@@ -1,0 +1,17 @@
+programa {
+  inteiro ano = 25
+  inteiro sequencial = 1
+  cadeia nome
+  funcao inicio() {
+   para (inteiro i = 2501; i<=2515; i++){
+   
+    escreva ("Digite o seu nome ", i, ":")
+    leia(nome)
+   
+  escreva("Aluno: ", nome, " - Matricula: ")
+  escreva ((ano % 100) * 100 + sequencial, "\n")
+   sequencial++
+   }
+  
+  }
+}
