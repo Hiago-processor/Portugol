@@ -1,0 +1,10 @@
+programa
+{
+funcao inicio()
+{
+para (inteiro i = 10; i >= 1; i--)
+{
+escreva("3 x ", i, " = ", 3 * i, "\n")
+}
+}
+}
