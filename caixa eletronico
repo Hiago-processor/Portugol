@@ -1,0 +1,28 @@
+programa
+{
+funcao inicio()
+{
+real saque, total = 0, maior = 0
+inteiro i
+real media
+
+para (i = 1; i <= 10; i++)
+{
+escreva("Digite o valor sacado pelo cliente ", i, ": ")
+leia(saque)
+
+total = total + saque
+
+se (saque > maior) entao
+maior = saque
+fimse
+}
+
+media = total / 10
+
+escreva("\n--- RELATÓRIO DO DIA ---\n")
+escreva("Maior saque: R$ ", maior, "\n")
+escreva("Média dos saques: R$ ", media, "\n")
+escreva("Total sacado: R$ ", total, "\n")
+}
+}
