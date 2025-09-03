@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro numero, numero2, numero3, numero4, numero5
+    inteiro soma
+    escreva("Escolha 5 numeros\n")
+    leia(numero)
+    leia(numero2)
+    leia(numero3)
+    leia(numero4)
+    leia(numero5)
+    soma = numero + numero2 + numero3 + numero4 + numero5
+    escreva("O resultado da conta é ", soma)
+  }
+}
