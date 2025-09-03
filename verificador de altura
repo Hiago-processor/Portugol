@@ -1,0 +1,57 @@
+programa {
+  funcao inicio() {
+    real altura, altura2, altura3, altura4, altura5, altura6, altura7, altura8, altura9, altura10, altura11, altura12
+    escreva("Qual a altura dos senhores?\n")
+    leia(altura)
+    leia(altura2)
+    leia(altura3)
+    leia(altura4)
+    leia(altura5)
+    leia(altura6)
+    leia(altura7)
+    leia(altura8)
+    leia(altura9)
+    leia(altura10)
+    leia(altura11)
+    leia(altura12)
+ se(altura >= 1.90)
+    escreva(altura, " ")
+
+  se(altura2 >= 1.90)
+    escreva(altura2, " ")
+
+    se(altura3 >= 1.90)
+    escreva(altura3, " ")
+
+    se(altura4 >= 1.90)
+    escreva(altura4, " ")
+
+    se(altura5 >= 1.90)
+    escreva(altura5, " ")
+
+    se(altura6 >= 1.90)
+    escreva(altura6, " ")
+
+    se(altura7 >= 1.90)
+    escreva(altura7, " ")
+
+    se(altura8 >= 1.90)
+    escreva(altura8, " ")
+
+    se(altura9 >= 1.90)
+    escreva(altura9, " ")
+
+    se(altura10 >= 1.90)
+    escreva(altura10, " ")
+
+    se(altura11 >= 1.90)
+    escreva(altura11, " ")
+
+    se(altura12 >= 1.90)
+    escreva(altura12, " ")
+
+
+  }
+    
+  
+}
