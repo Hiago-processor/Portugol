@@ -1,47 +1,16 @@
 programa {
   funcao inicio() {
-    inteiro numero, numero2, numero3, numero4, numero5, numero6, numero7, numero8, numero9, numero10
-    
-
-    escreva("Escreva 10 numeros\n")
+  
+  inteiro numero, c, maiorquecinquenta = 0
+  
+  para( c = 1; c <= 4; c++){
+    escreva("Digite um numero: ")
     leia(numero)
-    leia(numero2)
-    leia(numero3)
-    leia(numero5)
-    leia(numero6)
-    leia(numero7)
-    leia(numero8)
-    leia(numero9)
-    leia(numero10)
-
-    se (numero >= 50){
-      escreva(numero," ")
-    }
-    se(numero2 >= 50)
-    escreva(numero2, " ")
-    
-    se(numero3 >= 50)
-    escreva(numero3 >= 50, " ")
-
-    se(numero4 >= 50)
-    escreva(numero4 >= 50, " ")
-
-     se(numero5 >= 50)
-    escreva(numero5 >= 50, " ")
-
-     se(numero6 >= 50)
-    escreva(numero6 >= 50, " ")
-
-     se(numero7 >= 50)
-    escreva(numero7 >= 50, " ")
-
-     se(numero8 >= 50)
-    escreva(numero8 >= 50, " ")
-
-     se(numero9 >= 50)
-    escreva(numero9 >= 50, " ")
-
-     se(numero10 >= 50)
-    escreva(numero10 >= 50) 
+  
+    se(numero >= 50)
+      maiorquecinquenta++
   }
+  escreva("Quantidade de numeros lidos maiores que cinquenta: ", maiorquecinquenta)
+  }
+  
 }
