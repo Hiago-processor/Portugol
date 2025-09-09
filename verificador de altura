@@ -1,21 +1,20 @@
 programa {
   funcao inicio() {
-real altura
+real altura, jogadoralto = 0
 
-para (real c = 1; c <= 12; c++) {
+para (inteiro c = 1; c <= 12; c++) {
     escreva(" ")
     
-escreva("Informe a altura inicial:\n")
+escreva("Informe a altura inicial: ")
 leia(altura)
 
-}
+se (altura >= 1.90) 
+  jogadoralto++
 
-se (altura >= 1.90) {
-  escreva("Esses são os jogadores mais altos: \n")
-  escreva(altura, " ")
+}
+escreva("Esses são os jogadoes mais altos: ", jogadoralto)
   
 
   }
   }
-} 
   
