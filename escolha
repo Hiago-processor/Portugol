@@ -1,0 +1,17 @@
+programa{
+  funcao inicio(){
+    inteiro resposta, dez = 1, vinte = 2, trinta = 3
+    escreva("Você tem três numeros, eles são: 10(1), 25(2), 30(3). escolha um deles.\n")
+  leia(resposta)
+  
+  se(resposta == 1){
+    escreva("numero é menor")
+  }
+  se(resposta == 2){
+    escreva("Ele é o segundo maior")
+  }
+  se(resposta == 3){
+    escreva("Esse numero é o maior")
+  }
+  }
+}
