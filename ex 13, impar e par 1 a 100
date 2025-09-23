@@ -1,0 +1,69 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro contador
+        inteiro total_pares = 0
+        
+        escreva("=== NÚMEROS PARES DE 1 A 100 ===\n\n")
+        
+        // Método 1: Verificando se cada número é par
+        escreva("Números pares encontrados:\n")
+        
+        para (contador = 1; contador <= 100; contador++)
+        {
+            se (contador % 2 == 0)
+            {
+                escreva(contador, " ")
+                total_pares++
+                
+                // Quebra de linha a cada 10 números para melhor visualização
+                se (total_pares % 10 == 0)
+                {
+                    escreva("\n")
+                }
+            }
+        }
+        
+        escreva("\n\nTotal de números pares encontrados: ", total_pares)
+        escreva("\n========================================\n")
+        
+        // Método 2: Incrementando de 2 em 2 (mais eficiente)
+        escreva("\nMétodo alternativo (incrementando de 2 em 2):\n")
+        total_pares = 0
+        
+        para (contador = 2; contador <= 100; contador += 2)
+        {
+            escreva(contador, " ")
+            total_pares++
+            
+            se (total_pares % 10 == 0)
+            {
+                escreva("\n")
+            }
+        }
+        
+        escreva("\n\nTotal: ", total_pares, " números pares")
+        
+        // Demonstrando com laço ENQUANTO também
+        escreva("\n========================================\n")
+        escreva("\nUsando laço ENQUANTO:\n")
+        
+        contador = 2
+        total_pares = 0
+        enquanto (contador <= 100)
+        {
+            escreva(contador, " ")
+            total_pares++
+            
+            se (total_pares % 10 == 0)
+            {
+                escreva("\n")
+            }
+            
+            contador += 2
+        }
+        
+        escreva("\n\nTotal: ", total_pares, " números pares")
+    }
+}
