@@ -1,0 +1,11 @@
+programa{
+    funcao inicio(){
+      inteiro numero = 0, c
+      escreva("Digite um numero, e darei a tabuada dele: ")
+      leia(numero)
+      para(c = 1; c < 11; c++){
+      escreva(numero,"X", c,"=", c*numero, "\n")
+      }
+    }
+
+} 
